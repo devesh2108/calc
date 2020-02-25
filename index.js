@@ -1,4 +1,4 @@
-var calc=function(a,b,p) {
+var deveshcalc=function(a,b,p) {
     if(a==="" || b==="" || p==="") {
         return "Please provide all parameters";
     }
@@ -22,4 +22,4 @@ var calc=function(a,b,p) {
         default:{return;}
     }
 }
-exports.calc=calc;
+exports.deveshcalc=deveshcalc;
